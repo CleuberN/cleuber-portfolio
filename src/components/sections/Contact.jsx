@@ -36,7 +36,7 @@ const CONTACTS = [
   {
     icon: <LinkedInIcon sx={{ fontSize: '1.5rem' }} />,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/seu-usuario',
+    value: 'https://www.linkedin.com/in/pedro-campos-leitao/',
     href: profile.linkedin,
     copyable: false,
     color: '#0A66C2',
@@ -44,7 +44,7 @@ const CONTACTS = [
   {
     icon: <GitHubIcon sx={{ fontSize: '1.5rem' }} />,
     label: 'GitHub',
-    value: 'github.com/seu-usuario',
+    value: 'https://github.com/camposdevs',
     href: profile.github,
     copyable: false,
     color: '#94A3B8',

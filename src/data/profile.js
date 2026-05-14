@@ -1,3 +1,4 @@
+import avatar from "/avatar.jpeg";
 
 export const profile = {
   name: 'Pedro Campos',
@@ -24,11 +25,9 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/pedro-campos-leitao/',
   github: 'https://github.com/Campospdp',
 
-  /** Caminho relativo para o arquivo PDF do currículo em /public */
-  resume: '/public/Pedro_Campos.docx',
+  resume: '/Pedro_Campos.docx',
 
-  /** URL da sua foto de perfil (null = usa placeholder com iniciais) */
-  avatar: null,
+  avatar: "/avatar.jpeg",
 
   stats: [
     { label: 'Years of Experience', value: '1+' },

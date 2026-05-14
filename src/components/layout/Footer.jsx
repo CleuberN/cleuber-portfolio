@@ -123,7 +123,7 @@ export default function Footer() {
           variant="caption"
           sx={{ display: 'block', textAlign: 'center', color: 'text.secondary' }}
         >
-          © {year} {profile.name} — Built with React & Material UI
+          © {year} {profile.name} — Built with React, Tailwind CSS, Material UI & TypeScript
         </Typography>
       </Container>
     </Box>

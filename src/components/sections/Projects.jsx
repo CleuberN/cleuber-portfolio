@@ -268,8 +268,7 @@ export default function Projects() {
         <Box sx={{ textAlign: 'center', mt: 8 }}>
           <Button
             component="a"
-            href="https://github.com/seu-usuario"
-            target="_blank"
+            href="https://github.com/camposdevs"
             rel="noopener noreferrer"
             variant="outlined"
             color="primary"

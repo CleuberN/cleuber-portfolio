@@ -1,7 +1,3 @@
-// ============================================================
-// CUSTOMIZE HERE with your real skills
-// ============================================================
-
 export const skillCategories = [
   {
     id: 'frontend',
@@ -17,10 +13,6 @@ export const skillCategories = [
       'HTML5 & CSS3',
       'Material UI',
       'Tailwind CSS',
-      'Redux / Zustand',
-      'GraphQL Client',
-      'Framer Motion',
-      'Storybook',
     ],
   },
   {
@@ -33,14 +25,7 @@ export const skillCategories = [
     skills: [
       'Node.js',
       'Express',
-      'NestJS',
       'Python',
-      'FastAPI',
-      'REST APIs',
-      'GraphQL Server',
-      'WebSockets',
-      'Auth / JWT / OAuth2',
-      'Microservices',
     ],
   },
   {
@@ -51,14 +36,8 @@ export const skillCategories = [
     gradient: 'linear-gradient(135deg, #33679122 0%, #47A24822 100%)',
     borderColor: '#336791',
     skills: [
-      'PostgreSQL',
       'MySQL',
       'MongoDB',
-      'Redis',
-      'Prisma ORM',
-      'TypeORM',
-      'Mongoose',
-      'SQL Query Optimization',
     ],
   },
   {
@@ -70,12 +49,7 @@ export const skillCategories = [
     borderColor: '#FF9900',
     skills: [
       'AWS (S3, EC2, Lambda)',
-      'Google Cloud Platform',
-      'Docker',
-      'Docker Compose',
-      'CI/CD (GitHub Actions)',
-      'Nginx',
-      'Vercel / Railway',
+      'Vercel',
       'Linux',
     ],
   },
@@ -90,11 +64,6 @@ export const skillCategories = [
       'Jest',
       'React Testing Library',
       'Vitest',
-      'Cypress',
-      'TDD',
-      'Code Review',
-      'ESLint / Prettier',
-      'Husky / Commitlint',
     ],
   },
   {
@@ -106,13 +75,11 @@ export const skillCategories = [
     borderColor: '#94A3B8',
     skills: [
       'Git & GitHub',
-      'Jira / Linear',
       'Figma',
-      'Postman / Insomnia',
+      'Insomnia',
       'VS Code',
-      'Scrum / Kanban',
-      'Webpack / Vite',
-      'Monorepos (Nx, Turbo)',
+      'Scrum',
+      'Vite',
     ],
   },
 ];

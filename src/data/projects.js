@@ -1,14 +1,10 @@
-// ============================================================
-// CUSTOMIZE HERE with your real GitHub projects
-// ============================================================
-
 export const projects = [
   {
     id: 1,
-    title: 'Project Alpha — Task Platform',
+    title: 'Manutenção SESI',
     description:
-      'Task management platform with real-time collaboration, JWT authentication, push notifications, offline support and a full analytics dashboard.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Socket.io', 'Redis'],
+      'Manutenção SESI is a web-based inventory management system developed to help organize and control materials and equipment stock. The platform allows users to register products, track stock entries and withdrawals, monitor available quantities, and manage inventory information efficiently.',
+    technologies: ['React', 'TypeScript', 'Node.js'],
     github: 'https://github.com/seu-usuario/project-alpha',
     demo: 'https://project-alpha-demo.vercel.app',
     image: null,
@@ -18,86 +14,6 @@ export const projects = [
     categories: ['fullstack', 'react', 'nodejs'],
     status: 'In production',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-  },
-  {
-    id: 2,
-    title: 'Dev CLI Tool',
-    description:
-      'Command-line tool to automate repetitive development tasks: project scaffolding, code formatting and simplified deployment.',
-    technologies: ['Node.js', 'TypeScript', 'Commander.js', 'Inquirer'],
-    github: 'https://github.com/seu-usuario/dev-cli',
-    demo: null,
-    image: null,
-    featured: true,
-    stars: 87,
-    forks: 15,
-    categories: ['nodejs', 'tools'],
-    status: 'Active',
-    gradient: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
-  },
-  {
-    id: 3,
-    title: 'API Gateway Service',
-    description:
-      'API gateway with smart rate limiting, OAuth2 authentication, distributed logging and a real-time health monitoring dashboard.',
-    technologies: ['Node.js', 'Express', 'Redis', 'Docker', 'AWS', 'PostgreSQL'],
-    github: 'https://github.com/seu-usuario/api-gateway',
-    demo: null,
-    image: null,
-    featured: false,
-    stars: 54,
-    forks: 9,
-    categories: ['nodejs', 'backend', 'devops'],
-    status: 'Active',
-    gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-  },
-  {
-    id: 4,
-    title: 'React Component Library',
-    description:
-      'Library of reusable and accessible React components with Storybook, 90%+ test coverage and comprehensive interactive documentation.',
-    technologies: ['React', 'TypeScript', 'Storybook', 'Jest', 'CSS Modules'],
-    github: 'https://github.com/seu-usuario/react-components',
-    demo: 'https://components-docs.vercel.app',
-    image: null,
-    featured: false,
-    stars: 203,
-    forks: 44,
-    categories: ['react', 'frontend'],
-    status: 'Active',
-    gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-  },
-  {
-    id: 5,
-    title: 'E-commerce API',
-    description:
-      'Full-featured RESTful API for e-commerce with product and order management, Stripe payments, analytics reports and image uploads to AWS S3.',
-    technologies: ['Node.js', 'NestJS', 'TypeORM', 'PostgreSQL', 'Stripe', 'AWS S3'],
-    github: 'https://github.com/seu-usuario/ecommerce-api',
-    demo: null,
-    image: null,
-    featured: false,
-    stars: 31,
-    forks: 7,
-    categories: ['nodejs', 'backend'],
-    status: 'Completed',
-    gradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
-  },
-  {
-    id: 6,
-    title: 'Analytics Dashboard',
-    description:
-      'Analytics dashboard with interactive D3.js charts, dynamic filters by period and segment, and report exports to PDF and Excel.',
-    technologies: ['React', 'TypeScript', 'D3.js', 'Recharts', 'Python', 'FastAPI'],
-    github: 'https://github.com/seu-usuario/analytics-dashboard',
-    demo: 'https://analytics-demo.vercel.app',
-    image: null,
-    featured: false,
-    stars: 76,
-    forks: 18,
-    categories: ['react', 'frontend', 'python'],
-    status: 'In production',
-    gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
   },
 ];
 
