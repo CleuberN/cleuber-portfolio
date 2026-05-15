@@ -1,6 +1,6 @@
 #  Portfólio Pessoal — Pedro Campos
 
-Bem-vindo ao meu portfólio profissional!  
+Bem-vindo ao meu portfólio!  
 Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e experiências na área de Desenvolvimento de Sistemas.
 
 ## 🌐 Acesse o Projeto
@@ -27,9 +27,8 @@ O site apresenta informações sobre mim, minhas habilidades técnicas, projetos
 
 ## Front-end
 - React.js
-- TypeScript
+- JavaScript
 - Vite
-- Tailwind CSS
 
 ## Ferramentas
 - Git
@@ -48,18 +47,5 @@ O site apresenta informações sobre mim, minhas habilidades técnicas, projetos
 ✔️ Links para redes sociais  
 ✔️ Navegação suave entre seções  
 ✔️ Deploy online com Netlify  
-
----
-
-# 📂 Estrutura do Projeto
-
-```bash
-src/
- ├── assets/
- ├── components/
- ├── pages/
- ├── data/
- ├── styles/
- └── App.tsx
 
  © 2026 Pedro Campos
