@@ -1,72 +1,65 @@
-<div align="center">
+#  Portfólio Pessoal — Pedro Campos
 
-#  Meu Portfólio Front-end
+Bem-vindo ao meu portfólio profissional!  
+Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e experiências na área de Desenvolvimento de Sistemas.
 
-**Uma vitrine moderna, responsiva e visualmente impactante das minhas criações como desenvolvedor.**
+## 🌐 Acesse o Projeto
 
-Construído com React, Material UI e Framer Motion.
-
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Material UI](https://img.shields.io/badge/Material_UI-5-007FFF?style=flat-square&logo=mui)](https://mui.com)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-EF0078?style=flat-square&logo=framer)](https://www.framer.com/motion/)
-[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev)
-
-</div>
+🔗 https://portfoliodevcampos.netlify.app
 
 ---
 
-## 👨‍💻 Sobre Mim
+# 📖 Sobre o Projeto
 
-**Front-end Developer | React & TypeScript enthusiast.** Apaixonado por construir aplicações web responsivas e resolver problemas complexos com código elegante. Comprometido com o aprendizado contínuo e em entregar resultados através de tecnologias web modernas.
+Este portfólio foi criado utilizando tecnologias modernas de desenvolvimento web, focando em:
 
-> *"I am a software developer passionate about building digital experiences that blend visual elegance with engineering quality. I work with modern technologies focused on delivering clean, testable and scalable code."*
+- Design moderno e responsivo
+- Boa experiência do usuário (UI/UX)
+- Organização de projetos
+- Performance e acessibilidade
+- Apresentação profissional
 
----
-
-## ✨ Funcionalidades do Projeto
-
-- **Tema "Cosmic Dark"** — Fundo escuro profundo com acentos em violeta elétrico e ciano.
-- **Hero Section Animada** — Efeito de digitação e gradientes flutuantes.
-- **Navbar com Efeito Blur** — Navegação suave que se adapta ao scroll.
-- **Galeria de Projetos** — Filtros por tecnologia e exibição de detalhes técnicos.
-- **Animações com Framer Motion** — Transições suaves e elementos que surgem ao rolar a página.
-- **Totalmente Responsivo** — Experiência otimizada para Mobile, Tablet e Desktop.
+O site apresenta informações sobre mim, minhas habilidades técnicas, projetos desenvolvidos e formas de contato.
 
 ---
 
-## 📁 Estrutura do Código
+# 🛠️ Tecnologias Utilizadas
 
-Para manter o projeto organizado, utilizei uma estrutura de camadas:
-- `src/data/`: Onde toda a minha informação pessoal e técnica é gerenciada.
-- `src/components/`: Componentes reutilizáveis de UI e seções da página.
-- `src/theme/`: Configurações globais de cores e tipografia (MUI).
+## Front-end
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-| Ferramenta | Função |
-|---|---|
-| **React 18** | Framework de interface |
-| **Vite** | Ferramenta de build ultra-rápida |
-| **Material UI** | Biblioteca de componentes e design system |
-| **Framer Motion** | Engine de animações complexas |
-| **TypeScript** | Tipagem estática para maior segurança no código |
+## Ferramentas
+- Git
+- GitHub
+- Netlify
+- Figma
 
 ---
 
-## 🚀 Como rodar o projeto localmente
+# ✨ Funcionalidades
+
+✔️ Interface moderna e responsiva  
+✔️ Sessão sobre mim  
+✔️ Exibição de projetos  
+✔️ Lista de habilidades  
+✔️ Links para redes sociais  
+✔️ Navegação suave entre seções  
+✔️ Deploy online com Netlify  
+
+---
+
+# 📂 Estrutura do Projeto
 
 ```bash
-# 1. Clone o repositório
-git clone [https://github.com/Campospdp/my-portfolio.git](https://github.com/Campospdp/my-portfolio.git)
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── data/
+ ├── styles/
+ └── App.tsx
 
-# 2. Entre na pasta
-cd my-portfolio
-
-# 3. Instale as dependências
-npm install
-
-# 4. Inicie o servidor de desenvolvimento
-npm run dev
+ © 2026 Pedro Campos

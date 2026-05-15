@@ -133,9 +133,9 @@ export default function Skills() {
     >
       <Container maxWidth="lg">
         <SectionTitle
-          overline="04. skills"
-          title="Technical Arsenal"
-          subtitle="Technologies, tools and practices I use daily to build high-quality software."
+          overline="04. habilidades"
+          title="Competências Técnicas"
+          subtitle="Tecnologias, ferramentas e práticas que utilizo para desenvolver aplicações modernas e de alta qualidade."
         />
 
         <Grid container spacing={3}>

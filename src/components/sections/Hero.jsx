@@ -193,7 +193,7 @@ export default function Hero() {
                   letterSpacing: '0.05em',
                 }}
               >
-                Hi, I'm
+                Olá, eu sou
               </Box>
               <Box
                 component="span"
@@ -283,7 +283,7 @@ export default function Hero() {
                 size="large"
                 onClick={scrollToProjects}
               >
-                View Projects
+                Ver Projetos
               </Button>
 
               <Button
@@ -295,7 +295,7 @@ export default function Hero() {
                 size="large"
                 startIcon={<FileDownloadOutlinedIcon />}
               >
-                Download CV
+                Baixar CV
               </Button>
 
               <Box sx={{ display: 'flex', gap: 1 }}>
@@ -382,7 +382,7 @@ export default function Hero() {
           onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
         >
           <Typography variant="caption" sx={{ fontFamily: '"Fira Code", monospace', fontSize: '0.65rem', letterSpacing: '0.1em' }}>
-            SCROLL
+            EXPLORE MAIS
           </Typography>
           <motion.div
             animate={{ y: [0, 6, 0] }}

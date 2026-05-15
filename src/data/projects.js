@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: 'Manutenção SESI',
     description:
-      'Manutenção SESI is a web-based inventory management system developed to help organize and control materials and equipment stock. The platform allows users to register products, track stock entries and withdrawals, monitor available quantities, and manage inventory information efficiently.',
+      'Sistema web de gerenciamento de estoque desenvolvido para otimizar o controle de materiais e equipamentos. A plataforma permite cadastrar produtos, registrar entradas e saídas, monitorar quantidades disponíveis e gerenciar informações do inventário de forma prática e eficiente.',
     technologies: ['React', 'TypeScript', 'Node.js'],
     github: 'https://github.com/seu-usuario/project-alpha',
     demo: 'https://project-alpha-demo.vercel.app',
@@ -12,7 +12,7 @@ export const projects = [
     stars: 128,
     forks: 24,
     categories: ['fullstack', 'react', 'nodejs'],
-    status: 'In production',
+    status: 'Em desenvolvimento',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
 ];

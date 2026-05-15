@@ -201,9 +201,9 @@ export default function Projects() {
     >
       <Container maxWidth="lg">
         <SectionTitle
-          overline="03. projects"
-          title="What I've Built"
-          subtitle="Personal and open-source projects that showcase my technical journey and passion for creating solutions."
+          overline="03. projetos"
+          title="Projetos Selecionados"
+          subtitle="Projetos pessoais e aplicações desenvolvidas para demonstrar minhas habilidades técnicas, criatividade e experiência no desenvolvimento de soluções digitais."
         />
 
         {/* Filter buttons */}
@@ -275,7 +275,7 @@ export default function Projects() {
             size="large"
             startIcon={<GitHubIcon />}
           >
-            See more on GitHub
+            Acesse meu GitHub
           </Button>
         </Box>
       </Container>

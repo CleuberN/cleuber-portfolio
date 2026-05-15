@@ -5,42 +5,41 @@ export const profile = {
   firstName: 'Campos',
   initials: 'PC',
 
-  title: 'Front-end Developer',
+  title: 'Desenvolvedor Front-end',
 
-  /** Roles displayed in the Hero typewriter effect */
   roles: [
-    'Front-end Developer',
+    'Desenvolvedor Front-end',
     'React',
+    'TypeScript',
     'Node.js',
   ],
 
   description:
-    'Front-end Developer focused on building responsive, high-impact web applications. I have a solid track record of developing personal projects using modern stacks like React, Tailwind CSS, and TypeScript. Passionate about clean code, best practices, and results-driven development, I specialize in turning complex ideas into elegant and performant digital products.',
+    'Desenvolvedor Front-end focado na criação de aplicações web modernas, responsivas e de alta performance. Tenho experiência no desenvolvimento de projetos utilizando tecnologias como React, Tailwind CSS e TypeScript, sempre priorizando código limpo, boas práticas e experiência do usuário. Busco transformar ideias em soluções digitais eficientes, escaláveis e visualmente impactantes.',
 
   location: 'Osasco, SP — Brasil',
   available: true,
-  availableLabel: 'Available for new opportunities',
+  availableLabel: 'Disponível para novas oportunidades',
 
   email: 'devcampos2007@gmail.com',
   linkedin: 'https://www.linkedin.com/in/pedro-campos-leitao/',
-  github: 'https://github.com/Campospdp',
+  github: 'https://github.com/camposdevs',
 
-  resume: '/Pedro_Campos.docx',
+  resume: '/Pedro_Campos.pdf',
 
   avatar: "/avatar.jpeg",
 
   stats: [
-    { label: 'Years of Experience', value: '1+' },
-    { label: 'Projects Delivered', value: '1' },
-    { label: 'Companies', value: '3' },
-    { label: 'Technologies', value: '6+' },
+    { label: 'Anos de Experiência', value: '1' },
+    { label: 'Projetos Desenvolvidos', value: '1' },
+    { label: 'Experiência Acadêmica', value: '1' },
+    { label: 'Tecnologias', value: '6+' },
   ],
 
   about: [
-    'Front-end Developer | React & TypeScript enthusiast. Passionate about building responsive web applications and solving complex problems with elegant code. Committed to continuous learning and delivering results through modern web technologies.'
+    'Desenvolvedor Front-end apaixonado por React, TypeScript e interfaces modernas. Tenho foco em criar aplicações web responsivas, performáticas e intuitivas, sempre buscando evolução constante e excelência no desenvolvimento.'
   ],
 
-  /** Tech stack displayed in the About section */
   techStack: [
     { name: 'React', color: '#61DAFB' },
     { name: 'TypeScript', color: '#3178C6' },

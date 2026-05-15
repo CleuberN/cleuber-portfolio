@@ -201,9 +201,9 @@ export default function Contact() {
 
       <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1 }}>
         <SectionTitle
-          overline="05. contact"
-          title="Let's Talk"
-          subtitle="I'm open to new opportunities, freelance projects or just a good conversation about technology."
+          overline="05. contato"
+          title="Fale comigo"
+          subtitle="Estou aberto a novas oportunidades e projetos freelance."
         />
 
         {/* Main CTA block */}
@@ -222,7 +222,7 @@ export default function Contact() {
               variant="h4"
               sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.5rem', md: '2rem' } }}
             >
-              Ready to work{' '}
+              Vamos construir algo{' '}
               <Box
                 component="span"
                 sx={{
@@ -232,13 +232,12 @@ export default function Contact() {
                   backgroundClip: 'text',
                 }}
               >
-                together?
+                juntos?
               </Box>
             </Typography>
 
             <Typography variant="body1" sx={{ color: 'text.secondary', mb: 4, maxWidth: 480, mx: 'auto' }}>
-              If you have an interesting project, a job offer or just want to chat
-              about tech — my inbox is always open.
+              Estou disponível para colaborar em projetos, oportunidades profissionais e soluções digitais inovadoras.
             </Typography>
 
             <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -250,7 +249,7 @@ export default function Contact() {
                 size="large"
                 startIcon={<EmailOutlinedIcon />}
               >
-                Send a message
+                Enviar mensagem
               </Button>
               <Button
                 component="a"

@@ -2,10 +2,9 @@ import { Box, Typography } from '@mui/material';
 import AnimatedBox from './AnimatedBox';
 
 /**
- * Título de seção padronizado com linha de destaque gradiente.
- * @param {string} overline - Texto pequeno acima do título (ex: "01. sobre")
- * @param {string} title - Título principal da seção
- * @param {string} [subtitle] - Subtítulo opcional
+ * @param {string} overline 
+ * @param {string} title
+ * @param {string} [subtitle] 
  * @param {'center'|'left'} [align='center']
  */
 export default function SectionTitle({ overline, title, subtitle, align = 'center' }) {

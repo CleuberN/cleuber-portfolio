@@ -11,11 +11,11 @@ const SOCIAL = [
 ];
 
 const NAV_LINKS = [
-  { label: 'About', id: 'about' },
-  { label: 'Experience', id: 'experience' },
-  { label: 'Projects', id: 'projects' },
-  { label: 'Skills', id: 'skills' },
-  { label: 'Contact', id: 'contact' },
+  { label: 'Sobre', id: 'about' },
+  { label: 'Experiência', id: 'experience' },
+  { label: 'Projetos', id: 'projects' },
+  { label: 'Habilidades', id: 'skills' },
+  { label: 'Contato', id: 'contact' },
 ];
 
 export default function Footer() {

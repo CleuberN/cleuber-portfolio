@@ -193,9 +193,9 @@ export default function Experience() {
     >
       <Container maxWidth="md">
         <SectionTitle
-          overline="02. experience"
-          title="Professional Journey"
-          subtitle="Companies and projects that shaped my career and technical vision."
+          overline="02. experiência"
+          title="Jornada Profissional"
+          subtitle="Experiências, projetos e aprendizados que contribuíram para minha evolução como desenvolvedor."
         />
 
         <Box>

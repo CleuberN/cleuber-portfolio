@@ -37,9 +37,9 @@ export default function About() {
     >
       <Container maxWidth="lg">
         <SectionTitle
-          overline="01. about me"
-          title="Who I Am"
-          subtitle="A little about my journey, passions and what drives me as a developer."
+          overline="01. sobre mim"
+          title="Quem Sou"
+          subtitle="Um pouco sobre minha trajetória e o que me motiva como desenvolvedor."
         />
 
         <Grid container spacing={6} alignItems="flex-start">
@@ -115,8 +115,8 @@ export default function About() {
                           borderRadius: '12px',
                           transition: 'all 0.25s ease',
                           '&:hover': {
-                            bgcolor: alpha('#915EFF', 0.14),
-                            transform: 'scale(1.03)',
+                          bgcolor: alpha('#915EFF', 0.14),
+                          transform: 'scale(1.03)',
                           },
                         }}
                       >

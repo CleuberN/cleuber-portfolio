@@ -61,7 +61,6 @@ export const skillCategories = [
     gradient: 'linear-gradient(135deg, #E91E6322 0%, #FF572222 100%)',
     borderColor: '#E91E63',
     skills: [
-      'Jest',
       'React Testing Library',
       'Vitest',
     ],
