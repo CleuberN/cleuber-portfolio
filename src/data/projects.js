@@ -11,7 +11,7 @@ export const projects = [
 
      demo: 'https://cleuber-nascimento.netlify.app',
 
-    image: '/projects/dashboard.png',
+    image: '/projects/dashboard-sesi.png',
 
     featured: true,
 
