@@ -3,16 +3,15 @@ export const projects = [
     id: 1,
     title: 'Dashboard Operacional SESI',
 
-    description:
-      'Dashboard desenvolvido para acompanhamento operacional de eventos, logística e controle de equipes.',
+     description: 'Projeto desenvolvido para acompanhamento de indicadores operacionais, controle técnico e apoio à tomada de decisão. O dashboard apresenta métricas de produtividade, organização operacional e monitoramento de processos.',
 
-    technologies: ['Power BI', 'Excel', 'SQL'],
+    technologies: ['Power BI', 'SQL', 'Excel', 'React'],
 
-    github: 'https://github.com/seuusuario',
+     github: 'https://github.com/CleuberN/cleuber-portfolio',
 
-    demo: '#',
+     demo: 'https://cleuber-nascimento.netlify.app',
 
-    image: null,
+    image: '/projects/dashboard.png',
 
     featured: true,
 
@@ -20,7 +19,7 @@ export const projects = [
 
     forks: 0,
 
-    categories: ['data'],
+     category: 'data',
 
     status: 'Em desenvolvimento',
 

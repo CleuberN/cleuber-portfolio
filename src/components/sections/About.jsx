@@ -39,7 +39,7 @@ export default function About() {
         <SectionTitle
           overline="01. sobre mim"
           title="Quem Sou"
-          subtitle="Um pouco sobre minha trajetória e o que me motiva como desenvolvedor."
+          subtitle="Um pouco sobre minha trajetória e o que me motiva na área de Dados e Inteligência Operacional."
         />
 
         <Grid container spacing={6} alignItems="flex-start">
