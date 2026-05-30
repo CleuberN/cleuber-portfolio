@@ -195,7 +195,7 @@ export default function Experience() {
         <SectionTitle
           overline="02. experiência"
           title="Jornada Profissional"
-          subtitle="Experiências, projetos e aprendizados que contribuíram para minha evolução como desenvolvedor."
+          subtitle="Experiências, projetos e aprendizados que contribuíram para minha evolução como o que me motiva na área de Dados e Inteligência Operacional."
         />
 
         <Box>
