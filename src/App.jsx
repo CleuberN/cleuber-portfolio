@@ -11,30 +11,6 @@ import Contact from './components/sections/Contact';
 
 const globalStyles = `
   html { scroll-behavior: smooth; }
-
-  @keyframes float1 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33%       { transform: translate(35px, -55px) scale(1.06); }
-    66%       { transform: translate(-25px, 20px) scale(0.94); }
-  }
-  @keyframes float2 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33%       { transform: translate(-45px, 35px) scale(0.94); }
-    66%       { transform: translate(30px, -30px) scale(1.06); }
-  }
-  @keyframes float3 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    50%       { transform: translate(20px, 40px) scale(1.08); }
-  }
-  @keyframes blink-cursor {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
-  }
-  @keyframes pulse-ring {
-    0%   { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(145, 94, 255, 0.5); }
-    70%  { transform: scale(1);    box-shadow: 0 0 0 10px rgba(145, 94, 255, 0); }
-    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(145, 94, 255, 0); }
-  }
 `;
 
 export default function App() {
@@ -42,16 +18,31 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <GlobalStyles styles={globalStyles} />
-      <Box sx={{ overflowX: 'hidden' }}>
-        <Navbar />
-        <main>
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Skills />
-          <Contact />
-        </main>
+
+      <Navbar />
+
+      <Box>
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+
+        {/* 🔥 SEU PROJETO AQUI */}
+        <section id="projects">
+          <h2>Projetos</h2>
+
+          <div>
+            <img
+              src="/projects/publicprojectsdashboard-sesi.png"
+              alt="Dashboard SESI"
+              style={{ width: '100%', maxWidth: '600px', borderRadius: '12px' }}
+            />
+            <h3>Dashboard SESI</h3>
+            <p>Painel operacional de gestão de eventos</p>
+          </div>
+        </section>
+
+        <Contact />
         <Footer />
       </Box>
     </ThemeProvider>
