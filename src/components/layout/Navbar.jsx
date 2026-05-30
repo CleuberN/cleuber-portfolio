@@ -125,8 +125,8 @@ export default function Navbar() {
               >
                 {profile.firstName}
                 <Typography component="span" sx={{ color: 'primary.main', WebkitTextFillColor: 'initial' }}>
-                  .dev
-                </Typography>
+  Analytics
+</Typography>
               </Typography>
             </Box>
 

@@ -1,52 +1,55 @@
 import avatar from "/avatar.jpeg";
 
 export const profile = {
-  name: 'Pedro Campos',
-  firstName: 'Campos',
-  initials: 'PC',
+  name: 'Cleuber Nascimento',
+  firstName: 'Cleuber',
+  initials: 'CN',
 
-  title: 'Desenvolvedor Front-end',
+  title: 'Analista de Dados | Power BI | SQL | Inteligência Operacional', 
 
   roles: [
-    'Desenvolvedor Front-end',
-    'React',
-    'TypeScript',
-    'Node.js',
-  ],
+  'Power BI',
+  'SQL',
+  'Python',
+  'Business Intelligence',
+],
 
-  description:
-    'Desenvolvedor Front-end focado na criação de aplicações web modernas, responsivas e de alta performance. Tenho experiência no desenvolvimento de projetos utilizando tecnologias como React, Tailwind CSS e TypeScript, sempre priorizando código limpo, boas práticas e experiência do usuário. Busco transformar ideias em soluções digitais eficientes, escaláveis e visualmente impactantes.',
+  description:  'Profissional em transição para a área de Dados, com experiência em suporte operacional, processos técnicos e inteligência operacional. Desenvolvendo projetos com Power BI, SQL e Python para criação de dashboards, análise de indicadores e otimização de processos.',
+  location: 'Carapicuíba, SP — Brasil',
 
-  location: 'Osasco, SP — Brasil',
   available: true,
-  availableLabel: 'Disponível para novas oportunidades',
 
-  email: 'devcampos2007@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/pedro-campos-leitao/',
-  github: 'https://github.com/camposdevs',
+  availableLabel: 'Disponível para oportunidades em Dados',
 
-  resume: '/Pedro_Campos.pdf',
+  email: 'cleuber.cn@gmail.com',
+
+  linkedin: 'https://www.linkedin.com/in/cleuber-nascimento-3328749b/',
+
+  github: 'https://github.com/seuusuario',
+
+  resume: '#',
 
   avatar: "/avatar.jpeg",
 
   stats: [
-    { label: 'Anos de Experiência', value: '1' },
-    { label: 'Projetos Desenvolvidos', value: '1' },
-    { label: 'Experiência Acadêmica', value: '1' },
-    { label: 'Tecnologias', value: '6+' },
+    { label: 'Experiência Operacional', value: '2+' },
+    { label: 'Projetos em Desenvolvimento', value: '3+' },
+    { label: 'Cursos Técnicos', value: '15+' },
+    { label: 'Tecnologias', value: '10+' },
   ],
 
   about: [
-    'Desenvolvedor Front-end apaixonado por React, TypeScript e interfaces modernas. Tenho foco em criar aplicações web responsivas, performáticas e intuitivas, sempre buscando evolução constante e excelência no desenvolvimento.'
+    'Profissional com experiência operacional e formação técnica pelo SENAI, atualmente em transição para a área de Dados e Business Intelligence. Desenvolvendo projetos utilizando Power BI, SQL, Python e Excel para análise operacional, indicadores e melhoria contínua.'
   ],
 
   techStack: [
-    { name: 'React', color: '#61DAFB' },
-    { name: 'TypeScript', color: '#3178C6' },
-    { name: 'Node.js', color: '#8CC84B' },
-    { name: 'AWS', color: '#FF9900' },
-    { name: 'Git', color: '#F05032' },
+    { name: 'Power BI', color: '#F2C811' },
+    { name: 'SQL', color: '#336791' },
     { name: 'Python', color: '#3776AB' },
-    { name: 'MongoDB', color: '#47A248' },
+    { name: 'Excel', color: '#217346' },
+    { name: 'React', color: '#61DAFB' },
+    { name: 'Node.js', color: '#8CC84B' },
+    { name: 'Git', color: '#F05032' },
+    { name: 'GitHub', color: '#FFFFFF' },
   ],
 };
