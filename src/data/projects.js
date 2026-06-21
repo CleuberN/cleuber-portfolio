@@ -12,7 +12,7 @@ export const projects = [
 
     demo: 'https://cleuber-portfolio.vercel.app',
 
-    image: '/projects/dashboard-sesi.png',
+    image: 'image: '/dashboard-sesi.png,
 
     featured: true,
 
