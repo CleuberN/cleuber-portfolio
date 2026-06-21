@@ -135,7 +135,7 @@ export default function Skills() {
         <SectionTitle
           overline="04. habilidades"
           title="Competências Técnicas"
-          subtitle="Tecnologias, ferramentas e práticas que utilizo para desenvolver aplicações modernas e de alta qualidade."
+         subtitle="Competências desenvolvidas ao longo da minha trajetória em análise de dados, telecomunicações, infraestrutura, manutenção e tecnologia da informação."
         />
 
         <Grid container spacing={3}>

@@ -123,10 +123,7 @@ export default function Navbar() {
                   display: { xs: 'none', sm: 'block' },
                 }}
               >
-                {profile.firstName}
-                <Typography component="span" sx={{ color: 'primary.main', WebkitTextFillColor: 'initial' }}>
-                  .dev
-                </Typography>
+                Data Analytics
               </Typography>
             </Box>
 

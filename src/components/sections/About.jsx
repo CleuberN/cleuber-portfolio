@@ -39,7 +39,7 @@ export default function About() {
         <SectionTitle
           overline="01. sobre mim"
           title="Quem Sou"
-          subtitle="Um pouco sobre minha trajetória e o que me motiva como desenvolvedor."
+          subtitle="Um pouco sobre minha trajetória profissional e minha evolução nas áreas de tecnologia, telecomunicações, infraestrutura e análise de dados."
         />
 
         <Grid container spacing={6} alignItems="flex-start">
@@ -178,7 +178,7 @@ export default function About() {
                       letterSpacing: '0.12em',
                     }}
                   >
-                    TECH STACK
+                   TECNOLOGIAS E FERRAMENTAS
                   </Typography>
                 </Box>
 

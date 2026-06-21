@@ -1,29 +1,34 @@
 export const projects = [
   {
     id: 1,
-    title: 'SESI Manutenção Osasco',
+    title: 'Dashboard Operacional SESI',
+
     description:
-      'Sistema web de gerenciamento de estoque desenvolvido para otimizar o controle de materiais da manutenção do SESI Osasco. A plataforma permite cadastrar materiais, registrar entradas e saídas, monitorar estoque disponível, gerenciar categorias e acompanhar movimentações de forma prática e eficiente.',
-    technologies: ['React', 'JavaScript', 'Material UI', 'Tailwind CSS', 'Node.js', 'Supabase'],
-    github: 'https://github.com/camposdevs/sesi-manutencao-osasco.git',
-    demo: 'em desenvolvimento',
-    image: null,
+      'Dashboard desenvolvido para acompanhamento de indicadores operacionais, produtividade, gestão de eventos e apoio à tomada de decisão através de visualizações estratégicas.',
+
+    technologies: ['Power BI', 'SQL', 'Excel', 'React'],
+
+    github: 'https://github.com/CleuberN/cleuber-portfolio',
+
+    demo: 'https://cleuber-portfolio.vercel.app',
+
+    image: '/projects/dashboard-sesi.png',
+
     featured: true,
+
     stars: 0,
+
     forks: 0,
-    categories: ['fullstack', 'react', 'nodejs'],
-    status: 'Em desenvolvimento',
+
+    categories: ['data'],
+
+    status: 'Ativo',
+
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
 ];
 
 export const projectFilters = [
   { label: 'All', value: 'all' },
-  { label: 'Full Stack', value: 'fullstack' },
-  { label: 'React', value: 'react' },
-  { label: 'Node.js', value: 'nodejs' },
-  { label: 'Backend', value: 'backend' },
-  { label: 'Frontend', value: 'frontend' },
-  { label: 'Python', value: 'python' },
-  { label: 'DevOps', value: 'devops' },
+  { label: 'Data', value: 'data' },
 ];

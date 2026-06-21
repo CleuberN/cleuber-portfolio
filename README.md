@@ -1,51 +1,67 @@
-#  Portfólio Pessoal — Pedro Campos
+# Portfólio Profissional — Cleuber Nascimento
 
-Bem-vindo ao meu portfólio!  
-Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e experiências na área de Desenvolvimento de Sistemas.
+Bem-vindo ao meu portfólio profissional.
 
-## 🌐 Acesse o Projeto
+Este projeto foi desenvolvido para apresentar minha trajetória profissional, competências técnicas, projetos e experiências nas áreas de Tecnologia da Informação, Telecomunicações, Infraestrutura e Análise de Dados.
 
-🔗 https://portfoliodevcampos.netlify.app
+## 🌐 Acesse o Portfólio
+
+🔗 https://cleuber-portfolio.vercel.app
 
 ---
 
 # 📖 Sobre o Projeto
 
-Este portfólio foi criado utilizando tecnologias modernas de desenvolvimento web, focando em:
+Este portfólio foi desenvolvido utilizando tecnologias modernas de desenvolvimento web, com foco em desempenho, responsividade e experiência do usuário.
 
-- Design moderno e responsivo
-- Boa experiência do usuário (UI/UX)
-- Organização de projetos
-- Performance e acessibilidade
-- Apresentação profissional
+O objetivo é apresentar projetos, experiências profissionais, certificações e competências relacionadas às áreas de:
 
-O site apresenta informações sobre mim, minhas habilidades técnicas, projetos desenvolvidos e formas de contato.
+* Análise de Dados
+* Power BI
+* SQL
+* Python
+* Tecnologia da Informação
+* Telecomunicações
+* Infraestrutura e Redes
+* Manutenção e Operações
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
 ## Front-end
-- React.js
-- JavaScript
-- Vite
+
+* React.js
+* JavaScript
+* Vite
+* Material UI
 
 ## Ferramentas
-- Git
-- GitHub
-- Netlify
-- Figma
+
+* Git
+* GitHub
+* Vercel
+* VS Code
 
 ---
 
 # ✨ Funcionalidades
 
-✔️ Interface moderna e responsiva  
-✔️ Sessão sobre mim  
-✔️ Exibição de projetos  
-✔️ Lista de habilidades  
-✔️ Links para redes sociais  
-✔️ Navegação suave entre seções  
-✔️ Deploy online com Netlify  
+✔️ Interface moderna e responsiva
+✔️ Apresentação profissional
+✔️ Experiências profissionais
+✔️ Projetos e dashboards
+✔️ Competências técnicas
+✔️ Contato e redes profissionais
+✔️ Navegação fluida entre seções
+✔️ Deploy online
 
- © 2026 Pedro Campos
+---
+
+## 👨‍💻 Autor
+
+**Cleuber Nascimento**
+
+Tecnólogo em Gestão da Tecnologia da Informação, com experiência em telecomunicações, suporte técnico, infraestrutura, manutenção e análise de dados.
+
+© 2026 Cleuber Nascimento

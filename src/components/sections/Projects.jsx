@@ -44,6 +44,17 @@ function ProjectCard({ project, index }) {
           '&:hover .project-gradient': { opacity: 0.9 },
         }}
       >
+        <Box
+  component="img"
+  src={project.image}
+  alt={project.title}
+  sx={{
+    width: '100%',
+    height: 220,
+    objectFit: 'cover',
+    display: 'block',
+  }}
+/>
         {/* Gradient header */}
         <Box
           className="project-gradient"
@@ -268,7 +279,7 @@ export default function Projects() {
         <Box sx={{ textAlign: 'center', mt: 8 }}>
           <Button
             component="a"
-            href="https://github.com/camposdevs"
+            href="https://github.com/CleuberN"
             rel="noopener noreferrer"
             variant="outlined"
             color="primary"

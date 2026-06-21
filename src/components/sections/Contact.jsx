@@ -36,7 +36,7 @@ const CONTACTS = [
   {
     icon: <LinkedInIcon sx={{ fontSize: '1.5rem' }} />,
     label: 'LinkedIn',
-    value: 'https://www.linkedin.com/in/pedro-campos-leitao/',
+    value: 'https://www.linkedin.com/in/cleuber-nascimento-3328749b/',
     href: profile.linkedin,
     copyable: false,
     color: '#0A66C2',
@@ -44,7 +44,7 @@ const CONTACTS = [
   {
     icon: <GitHubIcon sx={{ fontSize: '1.5rem' }} />,
     label: 'GitHub',
-    value: 'https://github.com/camposdevs',
+    value: 'https://github.com/CleuberN',
     href: profile.github,
     copyable: false,
     color: '#94A3B8',
