@@ -57,6 +57,17 @@ function ProjectCard({ project, index }) {
 />
         {/* Gradient header */}
         <Box
+  component="img"
+  src={project.image}
+  alt={project.title}
+  sx={{
+    width: '100%',
+    height: 220,
+    objectFit: 'cover',
+    display: 'block',
+  }}
+/>
+        <Box
           className="project-gradient"
           sx={{
             height: 8,
