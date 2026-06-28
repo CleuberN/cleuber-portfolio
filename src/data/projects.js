@@ -9,10 +9,9 @@ export const projects = [
     technologies: ['Power BI', 'SQL', 'Excel', 'React'],
 
     github: 'https://github.com/CleuberN/cleuber-portfolio',
+    
+    image: '/projects/dashboard-sesi.jpeg',
 
-    demo: 'https://cleuber-portfolio.vercel.app',
-
-    image: '/dashboard-sesi.png' ,
 
     featured: true,
 

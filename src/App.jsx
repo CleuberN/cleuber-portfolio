@@ -28,19 +28,9 @@ export default function App() {
         <Skills />
 
         {/* 🔥 SEU PROJETO AQUI */}
-        <section id="projects">
-          <h2>Projetos</h2>
+       
 
-          <div>
-            <img
-              src="/projects/publicprojectsdashboard-sesi.png"
-              alt="Dashboard SESI"
-              style={{ width: '100%', maxWidth: '600px', borderRadius: '12px' }}
-            />
-            <h3>Dashboard SESI</h3>
-            <p>Painel operacional de gestão de eventos</p>
-          </div>
-        </section>
+       <Projects />
 
         <Contact />
         <Footer />
