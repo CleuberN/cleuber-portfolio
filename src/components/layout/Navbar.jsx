@@ -123,7 +123,7 @@ export default function Navbar() {
                   display: { xs: 'none', sm: 'block' },
                 }}
               >
-                Data Analytics
+                  Analista de Suporte Operacional
               </Typography>
             </Box>
 
