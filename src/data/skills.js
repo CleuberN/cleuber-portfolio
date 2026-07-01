@@ -45,7 +45,6 @@ export const skillCategories = [
     skills: [
       'Roteadores',
       'Switches',
-      'TCP/IP',
       'VLAN',
       'Suporte Técnico',
       'Cabeamento Estruturado',

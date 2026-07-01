@@ -24,8 +24,9 @@ export const experiences = [
       'NR10',
       'NR35',
     ],
+    
 
-    color: '#915EFF',
+    color: '#ff5e5e',
     current: true,
   },
 
@@ -52,21 +53,23 @@ export const experiences = [
     ],
 
     technologies: [
-      'Power BI',
-      'SQL',
-      'Excel',
-      'Governança de Acessos',
-      'Indicadores',
-      'Melhoria Contínua',
-      'Processos',
-      'Oracle',
-      'Siebel',
-      'SuccessFactors',
-      'Sigma Fibra',
-      'WFM',
-    ],
-
-    color: '#E60000',
+  'Power BI',
+  'SQL',
+  'Excel',
+  'Governança de Acessos',
+  'Indicadores',
+  'Quality Assurance (QA)',
+  'Documentação Técnica',
+  'Treinamento',
+  'Melhoria Contínua',
+  'Processos',
+  'Oracle',
+  'Siebel',
+  'SuccessFactors',
+  'Sigma Fibra',
+  'WFM',
+],
+    color: '#8A00C4',
     current: false,
   },
 
@@ -100,7 +103,7 @@ achievements: [
       'Melhoria Contínua',
     ],
 
-    color: '#E60000',
+    color: '#8A00C4',
     current: false,
   },
     {
@@ -140,7 +143,7 @@ achievements: [
   'Diagnóstico Técnico',
   'Qualidade',
 ],
-    color: '#E60000',
+    color: '#8A00C4',
     current: false,
   },
 {
@@ -150,37 +153,44 @@ achievements: [
   period: 'Abr/2010 – Jul/2016',
   location: 'São Paulo, SP',
   type: 'Presencial',
-
-  description:
-    'Atuação na implantação, manutenção e suporte de redes FTTx e GPON, participando da expansão da infraestrutura de fibra óptica da Vivo. Responsável pelo diagnóstico de falhas, instalação de equipamentos de rede e suporte técnico em campo, garantindo a disponibilidade e qualidade dos serviços.',
-
-  achievements: [
-    'Implantação e manutenção de redes FTTx e GPON.',
-    'Instalação, configuração e ativação de equipamentos OLT e ONT.',
-    'Diagnóstico e resolução de falhas em redes ópticas e infraestrutura de telecomunicações.',
-    'Configuração e suporte de equipamentos Askey, Alcatel-Lucent, Ericsson, Edge-Core e Huawei.',
-    'Realização de testes de potência óptica, certificação e validação de enlaces.',
-    'Acompanhamento de projetos de expansão da rede de fibra óptica.',
-    'Treinamento e apoio técnico às equipes de campo.',
-    'Garantia da qualidade dos serviços de instalação e manutenção conforme padrões da Vivo.',
-  ],
-
+description:
+'Atuação na implantação, instalação e manutenção de redes FTTx e GPON para clientes B2C e B2B, realizando ativação de serviços de Internet, IPTV e VoIP. Experiência em instalação de infraestrutura óptica, fusão e emenda mecânica de fibras, testes de potência óptica, diagnóstico de falhas e suporte técnico para garantir a disponibilidade e qualidade dos serviços.',
+ 
+achievements: [
+  'Instalação e ativação de serviços de Fibra Óptica para clientes B2C e B2B.',
+  'Implantação, configuração e manutenção de redes FTTx e GPON.',
+  'Instalação e configuração de equipamentos OLT, ONT e Home Gateway Units (HGU).',
+  'Ativação e suporte técnico dos serviços de Internet, IPTV e VoIP.',
+  'Execução de fusão e emenda mecânica de fibras ópticas.',
+  'Realização de testes com Power Meter e OTDR para certificação e diagnóstico da rede óptica.',
+  'Diagnóstico e resolução de falhas em redes ópticas e infraestrutura de telecomunicações.',
+  'Configuração e suporte de equipamentos Huawei, Ericsson, Alcatel-Lucent, Edge-Core e Askey.',
+  'Treinamento e orientação técnica para equipes de campo.',
+],
+ 
   technologies: [
   'FTTx',
   'GPON',
   'OLT',
   'ONT',
+  'HGU',
+  'B2B',
+  'B2C',
+  'Internet',
+  'IPTV',
+  'VoIP',
+  'Power Meter',
+  'OTDR',
+  'Fusão de Fibra',
+  'Emenda Mecânica',
   'Huawei',
   'Askey',
   'Alcatel-Lucent',
   'Ericsson',
   'Edge-Core',
-  'TCP/IP',
-  'Fibra Óptica',
-  'Roteadores',
 ],
 
-  color: '#E60000',
+ color: '#8A00C4',
   current: false,
 },
   
