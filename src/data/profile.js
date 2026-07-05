@@ -37,7 +37,7 @@ export const profile = {
 
  about: [
 
-'Profissional com mais de 13 anos de experiência na Telefônica/Vivo, evoluindo de funções técnicas para Analista de Suporte Operacional Pleno. Minha trajetória foi construída em ambientes de alta criticidade, apoiando operações e garantindo a continuidade dos serviços.',
+'Profissional com mais de 13 anos de experiência na Telefônica/Vivo, evoluindo de funções técnicas para Analista de Suporte Operacional. Minha trajetória foi construída em ambientes de alta criticidade, apoiando operações e garantindo a continuidade dos serviços.',
 
 'Atuei na administração de acessos para dezenas de sistemas corporativos, acompanhamento de indicadores operacionais, suporte a usuários, documentação de processos, treinamento de equipes e participação em iniciativas de melhoria contínua.',
 

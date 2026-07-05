@@ -1,19 +1,8 @@
 import { useState, useEffect } from 'react';
 import {
-  AppBar,
-  Box,
-  Container,
-  Drawer,
-  IconButton,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemText,
-  Toolbar,
-  Typography,
-  Button,
-  useScrollTrigger,
-  alpha,
+  AppBar, Box, Container, Drawer, IconButton, List, ListItem,
+  ListItemButton, ListItemText, Toolbar, Typography, Button,
+  useScrollTrigger, alpha,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -39,11 +28,9 @@ export default function Navbar() {
 
   const scrolled = useScrollTrigger({ disableHysteresis: true, threshold: 30 });
 
-  /* Active section tracker via IntersectionObserver */
   useEffect(() => {
     const ids = NAV_LINKS.map((l) => l.id);
     const observers = [];
-
     ids.forEach((id) => {
       const el = document.getElementById(id);
       if (!el) return;
@@ -54,7 +41,6 @@ export default function Navbar() {
       obs.observe(el);
       observers.push(obs);
     });
-
     return () => observers.forEach((o) => o.disconnect());
   }, []);
 
@@ -70,27 +56,26 @@ export default function Navbar() {
         elevation={0}
         sx={{
           transition: 'all 0.35s ease',
-          backgroundColor: scrolled
-            ? alpha('#050816', 0.85)
-            : 'transparent',
+          backgroundColor: scrolled ? alpha('#050816', 0.85) : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
-          borderBottom: scrolled
-            ? '1px solid rgba(255,255,255,0.07)'
-            : '1px solid transparent',
+          borderBottom: scrolled ? '1px solid rgba(255,255,255,0.07)' : '1px solid transparent',
         }}
       >
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ py: 0.5 }}>
+
             {/* Logo / name */}
             <Box
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={() => scrollTo('home')}
               sx={{
                 cursor: 'pointer',
                 display: 'flex',
                 alignItems: 'center',
-                gap: 1,
+                gap: 1.4,
                 flexGrow: { xs: 1, md: 0 },
-                mr: { md: 5 },
+                mr: { md: 6 },
+                transition: 'all 0.3s ease',
+                '&:hover': { transform: 'translateY(-1px)' },
               }}
             >
               <Box
@@ -111,20 +96,22 @@ export default function Navbar() {
               >
                 {profile.initials}
               </Box>
-              <Typography
-                variant="h6"
+
+              <Box
                 sx={{
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  background: 'linear-gradient(90deg, #FFFFFF 40%, #94A3B8 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                  display: { xs: 'none', sm: 'block' },
+                  display: { xs: 'none', sm: 'flex' },
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  lineHeight: 1.15,
                 }}
               >
+                <Typography sx={{ fontWeight: 700, fontSize: '0.95rem', color: '#FFFFFF', letterSpacing: '0.3px' }}>
+                  Cleuber Nascimento
+                </Typography>
+                <Typography sx={{ fontSize: '0.72rem', color: 'text.secondary', fontFamily: '"Fira Code", monospace', letterSpacing: '0.2px' }}>
                   Analista de Suporte Operacional
-              </Typography>
+                </Typography>
+              </Box>
             </Box>
 
             {/* Desktop nav links */}
@@ -183,6 +170,7 @@ export default function Navbar() {
             >
               <MenuIcon />
             </IconButton>
+
           </Toolbar>
         </Container>
       </AppBar>
@@ -219,15 +207,7 @@ export default function Navbar() {
                   bgcolor: activeSection === link.id ? alpha('#915EFF', 0.1) : 'transparent',
                 }}
               >
-                <Typography
-                  sx={{
-                    fontFamily: '"Fira Code", monospace',
-                    fontSize: '0.75rem',
-                    color: 'primary.main',
-                    mr: 1.5,
-                    minWidth: 24,
-                  }}
-                >
+                <Typography sx={{ fontFamily: '"Fira Code", monospace', fontSize: '0.75rem', color: 'primary.main', mr: 1.5, minWidth: 24 }}>
                   0{index + 1}.
                 </Typography>
                 <ListItemText primary={link.label} primaryTypographyProps={{ fontWeight: 500 }} />
@@ -246,7 +226,7 @@ export default function Navbar() {
             fullWidth
             startIcon={<FileDownloadOutlinedIcon />}
           >
-            Download Resume
+            Baixar CV
           </Button>
         </Box>
       </Drawer>
