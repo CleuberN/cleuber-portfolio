@@ -106,15 +106,37 @@ function ExperienceCard({ exp, index }) {
             }}
           >
             <Box>
-              <Typography variant="h6" sx={{ fontWeight: 700, color: 'text.primary', mb: 0.25 }}>
-                {exp.role}
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{ fontWeight: 600, color: exp.color, fontFamily: '"Fira Code", monospace', fontSize: '0.85rem' }}
-              >
-                {exp.company}
-              </Typography>
+              <Box
+  sx={{
+    display: { xs: 'none', sm: 'flex' },
+    flexDirection: 'column',
+    lineHeight: 1.15,
+  }}
+>
+  <Typography
+    sx={{
+      fontWeight: 700,
+      fontSize: '0.95rem',
+      color: '#FFFFFF',
+      letterSpacing: '0.2px',
+    }}
+  >
+    Cleuber Nascimento
+  </Typography>
+
+  <Typography
+    sx={{
+      fontSize: '0.72rem',
+      color: 'text.secondary',
+      fontFamily: '"Fira Code", monospace',
+    }}
+  >
+    Analista de Suporte Operacional
+  </Typography>
+</Box>
+
+
+
             </Box>
 
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: { xs: 'flex-start', sm: 'flex-end' }, gap: 0.5 }}>
@@ -148,7 +170,7 @@ function ExperienceCard({ exp, index }) {
           {/* Achievements */}
           <Box sx={{ mb: 2.5 }}>
             {exp.achievements.map((item) => (
-              <Box key={item} sx={{ display: 'flex', gap: 1, alignItems: 'flex-start', mb: 1 }}>
+              <Box key={item} sx={{ display: 'flex', gap: 1.5, alignItems: 'flex-start', mb: 1 }}>
                 <CheckCircleOutlineIcon sx={{ fontSize: '0.95rem', color: exp.color, mt: '3px', flexShrink: 0 }} />
                 <Typography variant="body2" sx={{ color: 'text.secondary', lineHeight: 1.65 }}>
                   {item}

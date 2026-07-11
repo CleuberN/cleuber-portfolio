@@ -12,10 +12,10 @@ import { profile } from '../../data/profile';
 const NAV_LINKS = [
   { label: 'Sobre', id: 'about' },
   { label: 'Experiência', id: 'experience' },
-  { label: 'Projetos', id: 'projects' },
   { label: 'Habilidades', id: 'skills' },
   { label: 'Contato', id: 'contact' },
 ];
+
 
 function scrollTo(id) {
   const el = document.getElementById(id);

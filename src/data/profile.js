@@ -29,10 +29,10 @@ export const profile = {
   avatar: '/avatar.jpeg',
 
  stats: [
-  { label: 'Anos de Experiência', value: '15+' },
+  { label: 'Anos de Experiência', value: '13+' },
   { label: 'Promoções na Vivo', value: '4' },
   { label: 'Sistemas Corporativos', value: '40+' },
-  { label: 'Dashboards Desenvolvidos', value: '5+' },
+  
 ],
 
  about: [
