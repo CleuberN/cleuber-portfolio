@@ -2,23 +2,22 @@ export const profile = {
   name: 'Cleuber Nascimento',
   firstName: 'Cleuber',
   initials: 'CN',
-
-  title: 'Analista de Suporte Operacional | Business Intelligence',
-
+roles: [
+  'Analista de Suporte Operacional | Business Intelligence',
+],
+  
    roles: [
   'Analista de Suporte Operacional',
   'Especialista em Governança de Acessos',
+  'Análise de Indicadores Operacionais',
   'Business Intelligence',
-  'Power BI • SQL • Excel • Python',
-  '13 anos de experiência em Telecomunicações',
 ],
-
-  description:
-    'Tecnólogo em Gestão da Tecnologia da Informação, com sólida experiência em telecomunicações, suporte técnico e operações. Especializado na construção de dashboards, análise de indicadores e geração de insights para apoio à tomada de decisão. Utilizo Power BI, SQL, Excel e Python para transformar dados em informações relevantes para o negócio.',
-
+description:
+'Tecnólogo em Gestão da Tecnologia da Informação, com mais de 13 anos de experiência em telecomunicações, operações e suporte corporativo. Atuei com governança de acessos, análise de indicadores, melhoria contínua e suporte a sistemas críticos. Atualmente estou ampliando minha atuação em Business Intelligence utilizando Power BI, SQL, Excel e Python.',
+  
   location: 'São Paulo, Brasil',
   available: false,
-  availableLabel: 'Disponível para novas oportunidades',
+ 
 
   email: 'cleuber.cn@gmail.com',
   linkedin: 'https://www.linkedin.com/in/cleuber-nascimento-3328749b/',

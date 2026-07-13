@@ -78,69 +78,116 @@ export default function Navbar() {
                 '&:hover': { transform: 'translateY(-1px)' },
               }}
             >
-              <Box
-                sx={{
-                  width: 36,
-                  height: 36,
-                  borderRadius: '8px',
-                  background: 'linear-gradient(135deg, #915EFF 0%, #00D9F5 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontFamily: '"Fira Code", monospace',
-                  fontWeight: 700,
-                  fontSize: '0.85rem',
-                  color: '#fff',
-                  flexShrink: 0,
-                }}
-              >
+             <Box
+  sx={{
+    width: 40,
+    height: 40,
+    borderRadius: '12px',
+    background: 'linear-gradient(135deg, #915EFF 0%, #00D9F5 100%)',
+    boxShadow: '0 10px 25px rgba(145,94,255,.35)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontFamily: '"Fira Code", monospace',
+    fontWeight: 700,
+    fontSize: '0.9rem',
+    color: '#fff',
+    flexShrink: 0,
+    transition: 'all .3s ease',
+
+    '&:hover': {
+      transform: 'rotate(-3deg) scale(1.05)',
+    },
+  }}
+>
+
                 {profile.initials}
               </Box>
 
-              <Box
-                sx={{
-                  display: { xs: 'none', sm: 'flex' },
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  lineHeight: 1.15,
-                }}
-              >
-                <Typography sx={{ fontWeight: 700, fontSize: '0.95rem', color: '#FFFFFF', letterSpacing: '0.3px' }}>
-                  Cleuber Nascimento
-                </Typography>
-                <Typography sx={{ fontSize: '0.72rem', color: 'text.secondary', fontFamily: '"Fira Code", monospace', letterSpacing: '0.2px' }}>
-                  Analista de Suporte Operacional
-                </Typography>
-              </Box>
-            </Box>
+<Box>
+  <Typography
+    variant="h6"
+    sx={{
+      fontWeight: 700,
+      color: '#FFFFFF',
+      mb: 0.3,
+    }}
+  >
+    {profile.name}
+  </Typography>
+
+  <Typography
+    sx={{
+      color: '#915EFF',
+      fontWeight: 600,
+      fontSize: '.95rem',
+    }}
+  >
+    {profile.role}
+  </Typography>
+</Box>
+                 </Box>
+          
 
             {/* Desktop nav links */}
-            <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', gap: 0.5, flexGrow: 1 }}>
-              {NAV_LINKS.map((link, index) => (
-                <Button
-                  key={link.id}
-                  onClick={() => handleNavClick(link.id)}
-                  sx={{
-                    color: activeSection === link.id ? 'primary.main' : 'text.secondary',
-                    fontFamily: '"Fira Code", monospace',
-                    fontSize: '0.8rem',
-                    py: 1,
-                    px: 1.5,
-                    position: 'relative',
-                    '&::before': {
-                      content: `"0${index + 1}."`,
-                      color: 'primary.main',
-                      fontSize: '0.7rem',
-                      mr: 0.5,
-                      fontWeight: 600,
-                    },
-                    '&:hover': { color: 'primary.main', bgcolor: alpha('#915EFF', 0.08) },
-                  }}
-                >
-                  {link.label}
-                </Button>
-              ))}
-            </Box>
+            <Box
+  sx={{
+  display: { xs: 'none', md: 'flex' },
+  fontFamily: '"Fira Code", monospace',
+  fontSize: '0.78rem',
+  ml: 2,
+  px: 2.8,
+  borderRadius: '999px',
+  transition: 'all .3s ease',
+
+  '&:hover': {
+    transform: 'translateY(-2px)',
+  },
+}}
+
+>
+  {NAV_LINKS.map((link) => (
+    <Button
+      key={link.id}
+      onClick={() => handleNavClick(link.id)}
+      sx={{
+        color:
+          activeSection === link.id
+            ? '#FFFFFF'
+            : 'text.secondary',
+
+        bgcolor:
+          activeSection === link.id
+            ? alpha('#915EFF', 0.15)
+            : 'transparent',
+
+        border:
+          activeSection === link.id
+            ? '1px solid rgba(145,94,255,.35)'
+            : '1px solid transparent',
+
+        borderRadius: '999px',
+
+        px: 2.2,
+        py: 0.8,
+
+        fontFamily: '"Fira Code", monospace',
+        fontSize: '0.82rem',
+        fontWeight: 500,
+
+        transition: 'all .25s ease',
+
+        '&:hover': {
+          color: '#FFFFFF',
+          bgcolor: alpha('#915EFF', .12),
+          borderColor: alpha('#915EFF', .35),
+        },
+      }}
+    >
+      {link.label}
+    </Button>
+  ))}
+</Box>
 
             {/* Download CV button */}
             <Button
@@ -182,7 +229,7 @@ export default function Navbar() {
         onClose={() => setMobileOpen(false)}
         PaperProps={{
           sx: {
-            width: 280,
+            width: 300,
             bgcolor: '#0d1117',
             borderLeft: '1px solid rgba(255,255,255,0.07)',
             px: 2,
@@ -197,24 +244,48 @@ export default function Navbar() {
         </Box>
 
         <List disablePadding>
-          {NAV_LINKS.map((link, index) => (
-            <ListItem key={link.id} disablePadding sx={{ mb: 1 }}>
-              <ListItemButton
-                onClick={() => handleNavClick(link.id)}
-                sx={{
-                  borderRadius: '8px',
-                  color: activeSection === link.id ? 'primary.main' : 'text.secondary',
-                  bgcolor: activeSection === link.id ? alpha('#915EFF', 0.1) : 'transparent',
-                }}
-              >
-                <Typography sx={{ fontFamily: '"Fira Code", monospace', fontSize: '0.75rem', color: 'primary.main', mr: 1.5, minWidth: 24 }}>
-                  0{index + 1}.
-                </Typography>
-                <ListItemText primary={link.label} primaryTypographyProps={{ fontWeight: 500 }} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
+  {NAV_LINKS.map((link) => (
+    <ListItem key={link.id} disablePadding sx={{ mb: 1 }}>
+      <ListItemButton
+        onClick={() => handleNavClick(link.id)}
+        sx={{
+          borderRadius: '12px',
+
+          color:
+            activeSection === link.id
+              ? '#FFFFFF'
+              : 'text.secondary',
+
+          bgcolor:
+            activeSection === link.id
+              ? alpha('#915EFF', .15)
+              : 'transparent',
+
+          border:
+            activeSection === link.id
+              ? '1px solid rgba(145,94,255,.35)'
+              : '1px solid transparent',
+
+          py: 1.2,
+
+          transition: 'all .25s ease',
+
+          '&:hover': {
+            bgcolor: alpha('#915EFF', .10),
+          },
+        }}
+      >
+        <ListItemText
+          primary={link.label}
+          primaryTypographyProps={{
+            fontWeight: 500,
+            fontSize: '0.95rem',
+          }}
+        />
+      </ListItemButton>
+    </ListItem>
+  ))}
+</List>
 
         <Box sx={{ mt: 4, px: 1 }}>
           <Button

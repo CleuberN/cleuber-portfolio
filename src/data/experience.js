@@ -2,7 +2,7 @@ export const experiences = [
   {
     id: 1,
     company: 'SESI Osasco',
-    role: 'Oficial de Serviços de Manutenção e Conservação I',
+    role: 'Oficial de Serviços de Manutenção e Conservação',
     period: 'Jul/2025 – Atualmente',
     location: 'Osasco, SP',
     type: 'Emprego',
@@ -33,7 +33,7 @@ export const experiences = [
   {
     id: 2,
     company: 'Vivo (Telefônica Brasil)',
-    role: 'Analista de Suporte Operacional Pleno',
+    role: 'Analista de Suporte Operacional',
     period: 'Nov/2019 – Mar/2023',
     location: 'São Paulo, SP',
     type: 'Híbrido',
@@ -76,7 +76,7 @@ export const experiences = [
   {
     id: 3,
     company: 'Vivo (Telefônica Brasil)',
-    role: 'Analista de Suporte Operacional Júnior',
+    role: 'Analista de Suporte Operacional',
     period: 'Jun/2018 – Nov/2019',
     location: 'São Paulo, SP',
     type: 'Presencial',
@@ -109,7 +109,7 @@ achievements: [
     {
     id: 4,
     company: 'Vivo (Telefônica Brasil)',
-    role: 'Técnico Sênior de Dispositivos',
+    role:'Especialista em Homologação de Dispositivos',
     period: 'Jul/2016 – Jun/2018',
     location: 'São Paulo, SP',
     type: 'Presencial',
@@ -149,7 +149,7 @@ achievements: [
 {
   id: 5,
   company: 'Vivo (Telefônica Brasil)',
-  role: 'Técnico Sênior em Telecomunicações – FTTx',
+  role: 'Técnico em Telecomunicações – FTTx',
   period: 'Abr/2010 – Jul/2016',
   location: 'São Paulo, SP',
   type: 'Presencial',

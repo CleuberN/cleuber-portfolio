@@ -79,9 +79,11 @@ const itemVariants = {
 export default function Hero() {
   const typedRole = useTypewriter(profile.roles);
 
-  const scrollToProjects = () => {
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-  };
+ const scrollToExperience = () => {
+  document.getElementById('experience')?.scrollIntoView({
+    behavior: 'smooth',
+  });
+};
 
   return (
     <Box
@@ -176,7 +178,7 @@ export default function Hero() {
             <Typography
               variant="h1"
               sx={{
-                fontSize: { xs: '2.5rem', sm: '3.5rem', md: '5rem', lg: '6rem' },
+                fontSize: { xs: '2.6rem', sm: '3.6rem', md: '4.8rem', lg: '5.4rem' },
                 mb: 1.5,
                 lineHeight: 1.05,
               }}
@@ -212,155 +214,94 @@ export default function Hero() {
           {/* Typed role */}
           <motion.div variants={itemVariants}>
             <Typography
-              variant="h2"
-              sx={{
-                fontSize: { xs: '1.4rem', sm: '1.8rem', md: '2.5rem' },
-                mb: 3,
-                fontWeight: 600,
-                minHeight: { xs: '2.5rem', md: '3.5rem' },
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1,
-              }}
-            >
-              <Box
-                component="span"
-                sx={{
-                  background: 'linear-gradient(90deg, #915EFF 0%, #00D9F5 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                }}
-              >
-                {typedRole}
-              </Box>
-              <Box
-                component="span"
-                sx={{
-                  display: 'inline-block',
-                  width: '3px',
-                  height: { xs: '1.4rem', md: '2rem' },
-                  bgcolor: 'primary.main',
-                  borderRadius: '2px',
-                  animation: 'blink-cursor 1s ease-in-out infinite',
-                  verticalAlign: 'middle',
-                  ml: 0.5,
-                }}
-              />
-            </Typography>
+  sx={{
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 1,
+    px: 2,
+    py: 1,
+    mb: 3,
+    borderRadius: '999px',
+    background: 'rgba(145,94,255,.10)',
+    border: '1px solid rgba(145,94,255,.25)',
+    color: '#B98CFF',
+    fontWeight: 600,
+    fontSize: {
+      xs: '.95rem',
+      md: '1rem',
+    },
+    width: 'fit-content',
+  }}
+>
+  Especialista em Operações • Indicadores • Business Intelligence
+</Typography>
           </motion.div>
+{/* Experiência */}
+<motion.div variants={itemVariants}>
+  <Typography
+  sx={{
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 1,
+    px: 2,
+    py: 1,
+    mb: 3,
 
-          {/* Description */}
-          <motion.div variants={itemVariants}>
-            <Typography
-              variant="body1"
-              sx={{
-                maxWidth: { xs: '100%', md: '580px' },
-                color: 'text.secondary',
-                mb: 5,
-                fontSize: { xs: '1rem', md: '1.1rem' },
-                lineHeight: 1.9,
-              }}
-            >
-              {profile.description}
-            </Typography>
-          </motion.div>
+    borderRadius: '999px',
 
-          {/* CTA Buttons */}
-          <motion.div variants={itemVariants}>
-            <Box
-              sx={{
-                display: 'flex',
-                flexWrap: 'wrap',
-                gap: 2,
-                alignItems: 'center',
-                mb: 5,
-              }}
-            >
-              <Button
-                variant="contained"
-                color="primary"
-                size="large"
-                onClick={scrollToProjects}
-              >
-                Ver Projetos
-              </Button>
+    background: 'rgba(145,94,255,.10)',
 
-              <Button
-                component="a"
-                href={profile.resume}
-                download
-                variant="outlined"
-                color="primary"
-                size="large"
-                startIcon={<FileDownloadOutlinedIcon />}
-              >
-                Baixar CV
-              </Button>
+    border: '1px solid rgba(145,94,255,.25)',
 
-              <Box sx={{ display: 'flex', gap: 1 }}>
-                <Tooltip title="GitHub" arrow>
-                  <IconButton
-                    component="a"
-                    href={profile.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub"
-                    sx={{
-                      border: '1px solid rgba(255,255,255,0.12)',
-                      color: 'text.secondary',
-                      '&:hover': {
-                        borderColor: 'primary.main',
-                        color: 'primary.main',
-                        bgcolor: alpha('#915EFF', 0.1),
-                      },
-                    }}
-                  >
-                    <GitHubIcon />
-                  </IconButton>
-                </Tooltip>
-                <Tooltip title="LinkedIn" arrow>
-                  <IconButton
-                    component="a"
-                    href={profile.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="LinkedIn"
-                    sx={{
-                      border: '1px solid rgba(255,255,255,0.12)',
-                      color: 'text.secondary',
-                      '&:hover': {
-                        borderColor: 'secondary.main',
-                        color: 'secondary.main',
-                        bgcolor: alpha('#00D9F5', 0.08),
-                      },
-                    }}
-                  >
-                    <LinkedInIcon />
-                  </IconButton>
-                </Tooltip>
-              </Box>
-            </Box>
-          </motion.div>
+    color: '#B98CFF',
 
+    fontWeight: 600,
+
+    fontSize: {
+      xs: '.95rem',
+      md: '1rem',
+    },
+
+    width: 'fit-content',
+  }}
+>
+  13+ anos em Telecomunicações
+</Typography>
+
+</motion.div>
+
+{/* Descrição */}
+<motion.div variants={itemVariants}>
+  <Typography
+    variant="body1"
+    sx={{
+      maxWidth: { xs: '100%', md: '620px' },
+      color: 'text.secondary',
+      mb: 5,
+      fontSize: { xs: '1rem', md: '1.08rem' },
+      lineHeight: 1.8,
+    }}
+  >
+    {profile.description}
+  </Typography>
+</motion.div>
+          
           {/* Location & code flavor */}
-          <motion.div variants={itemVariants}>
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 1.5,
-                flexWrap: 'wrap',
-              }}
-            >
-              <Typography
-                variant="caption"
-                sx={{ color: 'text.secondary', fontFamily: '"Fira Code", monospace' }}
-              >
-                {'{'} location: "{profile.location}" {'}'}
-              </Typography>
-            </Box>
-          </motion.div>
+        {/* Localização */}
+<motion.div variants={itemVariants}>
+  <Typography
+    sx={{
+      mt: 1,
+      color: 'text.secondary',
+      fontSize: '0.95rem',
+      display: 'flex',
+      alignItems: 'center',
+      gap: 1,
+    }}
+  >
+    📍 São Paulo, SP • Brasil
+  </Typography>
+</motion.div>
         </motion.div>
 
         {/* Scroll down indicator */}

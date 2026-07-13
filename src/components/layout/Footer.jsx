@@ -9,12 +9,10 @@ const SOCIAL = [
   { icon: <LinkedInIcon />, label: 'LinkedIn', href: profile.linkedin },
   { icon: <EmailOutlinedIcon />, label: 'E-mail', href: `mailto:${profile.email}` },
 ];
-
 const NAV_LINKS = [
   { label: 'Sobre', id: 'about' },
   { label: 'Experiência', id: 'experience' },
-  { label: 'Projetos', id: 'projects' },
-  { label: 'Habilidades', id: 'skills' },
+  { label: 'Competências', id: 'skills' },
   { label: 'Contato', id: 'contact' },
 ];
 
@@ -64,6 +62,7 @@ export default function Footer() {
               }}
             >
               {profile.title}
+              Business Intelligence | Operações | Tecnologia
             </Typography>
           </Box>
 
@@ -78,13 +77,19 @@ export default function Footer() {
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
                 sx={{
-                  color: 'text.secondary',
-                  fontSize: '0.85rem',
-                  cursor: 'pointer',
-                  textDecoration: 'none',
-                  transition: 'color 0.2s',
-                  '&:hover': { color: 'primary.main' },
-                }}
+  width: 42,
+  height: 42,
+  border: '1px solid rgba(255,255,255,.08)',
+  color: 'text.secondary',
+  transition: 'all .3s ease',
+
+  '&:hover': {
+    color: 'primary.main',
+    borderColor: 'primary.main',
+    bgcolor: alpha('#915EFF', .10),
+    transform: 'translateY(-3px)',
+  },
+}}
               >
                 {link.label}
               </Typography>
@@ -123,7 +128,19 @@ export default function Footer() {
           variant="caption"
           sx={{ display: 'block', textAlign: 'center', color: 'text.secondary' }}
         >
-          © {year} {profile.name} — Built with React, Tailwind CSS, Material UI & TypeScript
+          <Typography
+  sx={{
+    textAlign: 'center',
+    color: 'text.secondary',
+    mt: 2,
+    fontSize: '.9rem',
+    maxWidth: 600,
+    mx: 'auto',
+  }}
+>
+  Transformando dados em informações para apoiar decisões estratégicas.
+</Typography>
+          © {year} {profile.name}. Desenvolvido com React, Vite e Material UI.
         </Typography>
       </Container>
     </Box>

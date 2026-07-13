@@ -113,31 +113,32 @@ function ExperienceCard({ exp, index }) {
     lineHeight: 1.15,
   }}
 >
+  <Box>
   <Typography
+    variant="h6"
     sx={{
       fontWeight: 700,
-      fontSize: '0.95rem',
-      color: '#FFFFFF',
-      letterSpacing: '0.2px',
+      color: '#fff',
+      mb: 0.5,
     }}
   >
-    Cleuber Nascimento
+    {exp.role}
   </Typography>
 
   <Typography
     sx={{
-      fontSize: '0.72rem',
-      color: 'text.secondary',
-      fontFamily: '"Fira Code", monospace',
+      color: exp.color,
+      fontWeight: 600,
+      fontSize: '0.95rem',
     }}
   >
-    Analista de Suporte Operacional
+    {exp.company}
   </Typography>
 </Box>
+</Box>
+</Box>
 
-
-
-            </Box>
+          
 
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: { xs: 'flex-start', sm: 'flex-end' }, gap: 0.5 }}>
               <Chip
@@ -216,8 +217,8 @@ export default function Experience() {
       <Container maxWidth="md">
         <SectionTitle
           overline="02. experiência"
-          title="Jornada Profissional"
-          subtitle="Experiências profissionais que contribuíram para minha trajetória em tecnologia, telecomunicações, infraestrutura e análise de dados."
+       title="Experiência Profissional"   title="Jornada Profissional"
+          subtitle="Minha evolução profissional em operações, tecnologia, telecomunicações e Business Intelligence."
         />
 
         <Box>

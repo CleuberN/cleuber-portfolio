@@ -63,8 +63,8 @@ function SkillCard({ category, cardIndex }) {
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2.5 }}>
             <Box
               sx={{
-                width: 40,
-                height: 40,
+                width: 46,
+                height: 46,
                 borderRadius: '10px',
                 bgcolor: alpha(category.color, 0.15),
                 border: `1px solid ${alpha(category.color, 0.3)}`,
@@ -80,7 +80,7 @@ function SkillCard({ category, cardIndex }) {
               variant="h6"
               sx={{
                 fontWeight: 700,
-                fontSize: '1rem',
+                fontSize: '1.08rem',
                 color: 'text.primary',
               }}
             >
@@ -100,8 +100,10 @@ function SkillCard({ category, cardIndex }) {
                     border: `1px solid ${alpha(category.color, 0.22)}`,
                     color: alpha(category.color, 0.9),
                     fontFamily: '"Fira Code", monospace',
-                    fontSize: '0.73rem',
+                    fontSize: '0.78rem',
+                    fontWeight: 500,
                     height: 28,
+                    px: 0.5,
                     transition: 'all 0.2s ease',
                     cursor: 'default',
                     '&:hover': {
@@ -134,8 +136,8 @@ export default function Skills() {
       <Container maxWidth="lg">
         <SectionTitle
           overline="04. habilidades"
-          title="Competências Técnicas"
-         subtitle="Competências desenvolvidas ao longo da minha trajetória em análise de dados, telecomunicações, infraestrutura, manutenção e tecnologia da informação."
+          title="Competências"
+         subtitle="Conhecimentos aplicados em operações, Business Intelligence, análise de dados, tecnologia e telecomunicações."
         />
 
         <Grid container spacing={3}>

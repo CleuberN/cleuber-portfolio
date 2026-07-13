@@ -35,7 +35,7 @@ const CONTACTS = [
   },
   {
     icon: <LinkedInIcon sx={{ fontSize: '1.5rem' }} />,
-    label: 'LinkedIn',
+    label: 'Ver LinkedIn',
     value: 'https://www.linkedin.com/in/cleuber-nascimento-3328749b/',
     href: profile.linkedin,
     copyable: false,
@@ -43,15 +43,14 @@ const CONTACTS = [
   },
   {
     icon: <GitHubIcon sx={{ fontSize: '1.5rem' }} />,
-    label: 'GitHub',
-    value: 'https://github.com/CleuberN',
+    label: 'GitHub \ Portfólio',    value: 'https://github.com/CleuberN',
     href: profile.github,
     copyable: false,
     color: '#94A3B8',
   },
   {
     icon: <PlaceOutlinedIcon sx={{ fontSize: '1.5rem' }} />,
-    label: 'Location',
+    label:'Localização',
     value: profile.location,
     href: null,
     copyable: false,
@@ -142,7 +141,7 @@ function ContactCard({ contact, index }) {
           {/* Action area */}
           <Box sx={{ flexShrink: 0 }}>
             {contact.copyable ? (
-              <Tooltip title={copied ? 'Copied!' : 'Copy'} arrow>
+              <Tooltip title={copied ? 'Copiado!' : 'Copiar'} arrow>
                 <IconButton
                   size="small"
                   onClick={(e) => { e.preventDefault(); handleCopy(); }}
@@ -202,8 +201,8 @@ export default function Contact() {
       <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1 }}>
         <SectionTitle
           overline="05. contato"
-          title="Fale comigo"
-          subtitle="Estou aberto a novas oportunidades e projetos freelance."
+          title="Contato"
+          subtitle="Estou disponível para oportunidades em Operações, Business Intelligence e Análise de Dados."
         />
 
         {/* Main CTA block */}
@@ -222,7 +221,7 @@ export default function Contact() {
               variant="h4"
               sx={{ fontWeight: 700, mb: 2, fontSize: { xs: '1.5rem', md: '2rem' } }}
             >
-              Vamos construir algo{' '}
+              Vamos conversar?{' '}
               <Box
                 component="span"
                 sx={{
@@ -237,7 +236,7 @@ export default function Contact() {
             </Typography>
 
             <Typography variant="body1" sx={{ color: 'text.secondary', mb: 4, maxWidth: 480, mx: 'auto' }}>
-              Estou disponível para colaborar em projetos, oportunidades profissionais e soluções digitais inovadoras.
+              Estou disponível para oportunidades nas áreas de Operações, Business Intelligence e Análise de Dados. Se o meu perfil fizer sentido para sua equipe, entre em contato.
             </Typography>
 
             <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -249,7 +248,7 @@ export default function Contact() {
                 size="large"
                 startIcon={<EmailOutlinedIcon />}
               >
-                Enviar mensagem
+                Enviar e-mail
               </Button>
               <Button
                 component="a"
