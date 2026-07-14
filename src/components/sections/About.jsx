@@ -37,7 +37,7 @@ export default function About() {
     >
       <Container maxWidth="lg">
         <SectionTitle
-          overline="01. sobre mim"
+          overline="SOBRE"
           title="Quem Sou"
           subtitle="Profissional com sólida experiência em operações, tecnologia e telecomunicações, atualmente direcionando a carreira para Business Intelligence e análise de dados."
         />

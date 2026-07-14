@@ -200,7 +200,7 @@ export default function Contact() {
 
       <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1 }}>
         <SectionTitle
-          overline="05. contato"
+          overline="Contato"
           title="Contato"
           subtitle="Estou disponível para oportunidades em Operações, Business Intelligence e Análise de Dados."
         />

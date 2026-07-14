@@ -146,7 +146,15 @@ export default function Hero() {
       />
 
       {/* ── Main content ── */}
-      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
+      <Container
+  maxWidth="lg"
+  sx={{
+    position: 'relative',
+    zIndex: 1,
+    pt: { xs: 6, md: 9 },
+  }}
+>
+
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
           {/* Available badge */}
           {profile.available && (
@@ -178,9 +186,9 @@ export default function Hero() {
             <Typography
               variant="h1"
               sx={{
-                fontSize: { xs: '2.6rem', sm: '3.6rem', md: '4.8rem', lg: '5.4rem' },
+                fontSize: { xs: '2.5rem', sm: '3.3rem', md: '4.4rem', lg: '4.9rem' },
                 mb: 1.5,
-                lineHeight: 1.05,
+                lineHeight: 1.1,
               }}
             >
               <Box
@@ -273,15 +281,16 @@ export default function Hero() {
 {/* Descrição */}
 <motion.div variants={itemVariants}>
   <Typography
-    variant="body1"
-    sx={{
-      maxWidth: { xs: '100%', md: '620px' },
-      color: 'text.secondary',
-      mb: 5,
-      fontSize: { xs: '1rem', md: '1.08rem' },
-      lineHeight: 1.8,
-    }}
-  >
+  variant="body1"
+  sx={{
+    maxWidth: { xs: '100%', md: '560px' },
+    color: 'text.secondary',
+    mb: 5,
+    fontSize: { xs: '1rem', md: '1.05rem' },
+    lineHeight: 1.9,
+  }}
+>
+  
     {profile.description}
   </Typography>
 </motion.div>
@@ -307,22 +316,28 @@ export default function Hero() {
         {/* Scroll down indicator */}
         <Box
           sx={{
-            position: 'absolute',
-            bottom: { xs: 24, md: 40 },
-            left: '50%',
-            transform: 'translateX(-50%)',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: 0.5,
-            opacity: 0.5,
-            cursor: 'pointer',
-            '&:hover': { opacity: 1 },
-            transition: 'opacity 0.3s',
-          }}
+  position: 'absolute',
+  bottom: { xs: 10, md: 20 },
+  right: 40,
+  left: 'auto',
+  transform: 'none',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: 0.5,
+
+  opacity: 0.5,
+  cursor: 'pointer',
+
+  '&:hover': {
+    opacity: 1,
+  },
+}}
           onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
         >
           <Typography variant="caption" sx={{ fontFamily: '"Fira Code", monospace', fontSize: '0.65rem', letterSpacing: '0.1em' }}>
+
             EXPLORE MAIS
           </Typography>
           <motion.div

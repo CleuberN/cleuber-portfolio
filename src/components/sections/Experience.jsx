@@ -216,7 +216,7 @@ export default function Experience() {
     >
       <Container maxWidth="md">
         <SectionTitle
-          overline="02. experiência"
+          overline="Experiência"
        title="Experiência Profissional"   title="Jornada Profissional"
           subtitle="Minha evolução profissional em operações, tecnologia, telecomunicações e Business Intelligence."
         />

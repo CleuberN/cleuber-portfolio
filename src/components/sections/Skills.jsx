@@ -135,7 +135,7 @@ export default function Skills() {
     >
       <Container maxWidth="lg">
         <SectionTitle
-          overline="04. habilidades"
+          overline="Habilidades"
           title="Competências"
          subtitle="Conhecimentos aplicados em operações, Business Intelligence, análise de dados, tecnologia e telecomunicações."
         />

@@ -80,8 +80,8 @@ export default function Navbar() {
             >
              <Box
   sx={{
-    width: 40,
-    height: 40,
+    width: 44,
+    height: 44,
     borderRadius: '12px',
     background: 'linear-gradient(135deg, #915EFF 0%, #00D9F5 100%)',
     boxShadow: '0 10px 25px rgba(145,94,255,.35)',
@@ -104,26 +104,30 @@ export default function Navbar() {
                 {profile.initials}
               </Box>
 
-<Box>
+<Box
+  sx={{
+    display: { xs: 'none', sm: 'block' },
+  }}
+>
   <Typography
-    variant="h6"
     sx={{
-      fontWeight: 700,
       color: '#FFFFFF',
-      mb: 0.3,
+      fontWeight: 700,
+      fontSize: '0.95rem',
+      lineHeight: 1.2,
     }}
   >
-    {profile.name}
+    Business Intelligence
   </Typography>
 
   <Typography
     sx={{
-      color: '#915EFF',
-      fontWeight: 600,
-      fontSize: '.95rem',
+      color: 'text.secondary',
+      fontSize: '0.78rem',
+      fontFamily: '"Fira Code", monospace',
     }}
   >
-    {profile.role}
+    Operações • Dados
   </Typography>
 </Box>
                  </Box>
